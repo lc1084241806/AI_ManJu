@@ -1,0 +1,30 @@
+# 大文件（视频/音频/设计源文件）
+*.mp4
+*.mov
+*.mkv
+*.wav
+*.flac
+*.mp3
+*.psd
+*.ai
+*.prproj
+*.drp
+*.aep
+
+# 工程缓存
+06_项目作品/**/05_工程/
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# 密钥与本地配置
+.env
+.env.*
+*.key
+*.pem
+
+# 编辑器
+.vscode/
+.idea/
+*.swp
+*.swo
