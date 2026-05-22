@@ -11,8 +11,10 @@
 *.drp
 *.aep
 
-# 工程缓存
+# 工程缓存（实际作品的工程文件不入库；模板目录例外，保留占位）
 06_项目作品/**/05_工程/
+!06_项目作品/_template/05_工程/
+!06_项目作品/_template/05_工程/.gitkeep
 .DS_Store
 Thumbs.db
 desktop.ini
