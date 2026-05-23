@@ -1,4 +1,4 @@
-# 大文件（视频/音频/设计源文件）
+# 大文件（视频/音频/设计源文件不入库，放本地或网盘）
 *.mp4
 *.mov
 *.mkv
@@ -11,20 +11,21 @@
 *.drp
 *.aep
 
-# 工程缓存
-06_项目作品/**/05_工程/
+# 系统/编辑器
 .DS_Store
 Thumbs.db
 desktop.ini
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# 临时文件
+~$*
+*.tmp
 
 # 密钥与本地配置
 .env
 .env.*
 *.key
 *.pem
-
-# 编辑器
-.vscode/
-.idea/
-*.swp
-*.swo
