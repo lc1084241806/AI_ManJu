@@ -30,3 +30,10 @@ desktop.ini
 .env.*
 *.key
 *.pem
+
+# 参考图(本地保留,不入 git)
+材料库/人物/ref/
+材料库/**/ref/
+*.png
+*.jpg
+*.jpeg
